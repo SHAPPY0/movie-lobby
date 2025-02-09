@@ -17,6 +17,11 @@
       <artifactId>junit</artifactId>
       <version>1.2.3.0.1</version>
     </dependency>
+    <dependency>
+      <groupId>junit2</groupId>
+      <artifactId>junit2</artifactId>
+      <version>1.2</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
@@ -66,8 +71,8 @@
     </plugins>
   </build>
   <properties>
+    <Sau>0.1</Sau>
     <sdkVersion>2.0.1</sdkVersion>
     <SaurabhSharma>11.1</SaurabhSharma>
-    <Sau>0.1</Sau>
   </properties>
 </project>
