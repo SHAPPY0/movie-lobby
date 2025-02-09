@@ -22,6 +22,11 @@
       <artifactId>junit2</artifactId>
       <version>1.2</version>
     </dependency>
+    <dependency>
+      <groupId>net.authorizee</groupId>
+      <artifactId>anet-java-sdkk</artifactId>
+      <version>3.3</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
@@ -52,10 +57,10 @@
           </execution>
         </executions>
         <configuration>
-          <createDependencyReducedPom>false</createDependencyReducedPom>
           <filters>
 &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
 &#x9;&#x9;&#x9;&#x9;&#x9;</filters>
+          <createDependencyReducedPom>false</createDependencyReducedPom>
         </configuration>
       </plugin>
       <plugin>
@@ -71,8 +76,8 @@
     </plugins>
   </build>
   <properties>
-    <Sau>0.1</Sau>
     <sdkVersion>2.0.1</sdkVersion>
     <SaurabhSharma>11.1</SaurabhSharma>
+    <Sau>0.1</Sau>
   </properties>
 </project>
