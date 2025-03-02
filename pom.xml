@@ -1,16 +1,16 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.2.2</version>
+  </parent>
   <groupId>net.authorize.sample</groupId>
   <artifactId>SampleCode</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
   <name>SampleCode</name>
   <url>http://maven.apache.org</url>
-  <parent>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.2.1</version>
-  </parent>
   <dependencies>
     <dependency>
       <groupId>net.authorize</groupId>
@@ -39,8 +39,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.7.0</version>
         <configuration>
-          <target>9</target>
           <source>9</source>
+          <target>9</target>
         </configuration>
       </plugin>
       <plugin>
@@ -81,8 +81,8 @@
     </plugins>
   </build>
   <properties>
-    <sdkVersion>2.0.1</sdkVersion>
     <SaurabhSharma>11.1</SaurabhSharma>
     <Sau>0.11</Sau>
+    <sdkVersion>2.0.1</sdkVersion>
   </properties>
 </project>
